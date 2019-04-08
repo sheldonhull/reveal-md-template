@@ -1,0 +1,6 @@
+{
+  "separator": "^---------------------------------------------------------------------------------",
+  "verticalSeparator": "^_____________________"
+  ,"preprocessor": ".\\assets\\preproc.js"
+  ,"css":".\\assets\\custom.css"
+}

@@ -1,0 +1,8 @@
+{
+    "controls": true,
+    "progress": true,
+    "transition":"fade",
+    "fragmentInURL": false,
+    "defaultTiming":120
+
+  }

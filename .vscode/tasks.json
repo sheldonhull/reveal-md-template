@@ -1,0 +1,119 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "run start.ps1",
+      "type": "shell",
+      "group": {
+        "kind": "build",
+        "isDefault": true // map default build to control+shift+b and then you can just run presentation with keyboard command
+      },
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-NoLogo",
+        "-NoExit", {
+          "value": "-file \"${workspaceFolder}\\start.ps1\"",
+          "quoting": "weak"
+        }
+      ],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "focus": true,
+        "clear": true
+      },
+
+      "problemMatcher": [],
+      "options": {
+        "shell": {
+          "executable": "powershell.exe",
+          "args": ["-NoProfile", "-NoLogo", "-NoExit"]
+        }
+      }
+    }, {
+      "label": "setup dependencies",
+      "type": "shell",
+      "group": "build",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-NoLogo",
+        "-NoExit", {
+          "value": "-file \"${workspaceFolder}\\install.ps1\"",
+          "quoting": "weak"
+        }
+      ],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "focus": true,
+        "clear": true
+      },
+
+      "problemMatcher": [],
+      "options": {
+        "shell": {
+          "executable": "powershell.exe",
+          "args": ["-NoProfile", "-NoLogo", "-NoExit"]
+        }
+      }
+    }, {
+      "label": "export static",
+      "type": "shell",
+      "group": "build",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-NoLogo",
+        "-NoExit", {
+          "value": "-file \"${workspaceFolder}\\export-static.ps1\"",
+          "quoting": "weak"
+        }
+      ],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "focus": true,
+        "clear": true
+      },
+
+      "problemMatcher": [],
+      "options": {
+        "shell": {
+          "executable": "powershell.exe",
+          "args": ["-NoProfile", "-NoLogo", "-NoExit"]
+        }
+      }
+    }, {
+      "label": "export PDF",
+      "type": "shell",
+      "group": "build",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-NoLogo",
+        "-NoExit", {
+          "value": "-file \"${workspaceFolder}\\export-pdf.ps1\"",
+          "quoting": "weak"
+        }
+      ],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "focus": true,
+        "clear": true
+      },
+
+      "problemMatcher": [],
+      "options": {
+        "shell": {
+          "executable": "powershell.exe",
+          "args": ["-NoProfile", "-NoLogo", "-NoExit"]
+        }
+      }
+    }
+  ]
+}
