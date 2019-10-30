@@ -5,7 +5,6 @@ theme: blood
 
 <!-- Documentation/Usage: https://github.com/webpro/reveal-md -->
 <base target="_blank">   <!-- Used so that providing hyperlinks in the presentation open new tabs instead of impacting the presentation by navigating the main presentation away -->
-
 ## Tacos
 the lifeblood of every developer
 <!-- .slide: data-background-transition="zoom" data-transition="slide" data-background="#4d7e65"-->
@@ -14,23 +13,19 @@ Note: <!--Notes are for speaker, and can be opened by using speaker window short
 Questions you might have
 - Why should I eat tacos?
 - How will this help me not eat burritos?
-
 ---------------------------------------------------------------------------------
 ### Traditional Tacos
 * Soft
 * Can be challenging for those who are clumsy
 <!-- .slide: data-transition="zoom-in fade-out"-->
-
 ---------------------------------------------------------------------------------
 ### Unified Gastronomy
 > See everything that matters, <br/>end-to-end, with Taco-centric, fully integrated Unified Gastronomy.
 <!-- .slide: data-background-transition="zoom" data-transition="slide" data-background="#4d7e65"-->
-
 ---------------------------------------------------------------------------------
 ## The Shift
 #### Focus on the taco shell first
 #### Then move to the contents
-
 ---------------------------------------------------------------------------------
 ### Scenario
 Customer complains that taco shell is _limiting_
@@ -110,7 +105,6 @@ Note: Using this targeted information, TacoOps is in a much stronger position to
 _____________________
 ## Technical Note
 > Fancy Quote about tacos
-
 ---------------------------------------------------------------------------------
 #### Architecture
 ![Architecture](.\assets\terms-architecture.png)

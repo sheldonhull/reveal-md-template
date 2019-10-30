@@ -10,7 +10,6 @@
         "textLink.foreground": "#616161",
         "progressBar.background": "#616161",
         "pickerGroup.foreground": "#616161",
-        "tab.activeBorder": "#616161",
         "notificationLink.foreground": "#616161",
         "editorWidget.resizeBorder": "#616161",
         "editorWidget.border": "#616161",
@@ -31,6 +30,8 @@
         "titleBar.inactiveForeground": "#e7e7e799",
         "statusBar.background": "#256f96",
         "statusBarItem.hoverBackground": "#2f8dbf",
-        "statusBar.foreground": "#e7e7e7"
-    }
+        "statusBar.foreground": "#e7e7e7",
+        "tab.activeBorder": "#2f8dbf"
+    },
+    "peacock.color": "#256f96"
 }

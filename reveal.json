@@ -3,6 +3,7 @@
     "progress": true,
     "transition":"fade",
     "fragmentInURL": false,
-    "defaultTiming":120
+    "defaultTiming":120,
+    "enableFragments": true
 
   }
